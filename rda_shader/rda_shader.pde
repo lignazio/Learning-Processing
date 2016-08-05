@@ -96,17 +96,17 @@ void keyPressed(){
 
 void setGUI(){
   
-  cp5.addSlider("dA", 0.00, 2.00, 1.00, 10, 10, 100, 14)
+  cp5.addSlider("dA", 0.00, 2.00, 1.00, 10, 10, 200, 14)
   .setColorValue(color(255)).setColorActive(color(155)).setColorForeground(color(155)).setColorLabel(color(50)).setColorBackground(color(50));
-  cp5.addSlider("dB", 0.00, 2.00, 0.50, 10, 30, 100, 14)
+  cp5.addSlider("dB", 0.00, 2.00, 0.50, 10, 30, 200, 14)
   .setColorValue(color(255)).setColorActive(color(155)).setColorForeground(color(155)).setColorLabel(color(50)).setColorBackground(color(50));
-  cp5.addSlider("f", 0.00, .20, 0.0540, 10, 50, 100, 14)
+  cp5.addSlider("f", 0.00, .20, 0.0540, 10, 50, 200, 14)
   .setColorValue(color(255)).setColorActive(color(155)).setColorForeground(color(155)).setColorLabel(color(50)).setColorBackground(color(50));
-  cp5.addSlider("k", 0.00, .20, 0.0620, 10, 70, 100, 14)
+  cp5.addSlider("k", 0.00, .20, 0.0620, 10, 70, 200, 14)
   .setColorValue(color(255)).setColorActive(color(155)).setColorForeground(color(155)).setColorLabel(color(50)).setColorBackground(color(50));
-  cp5.addSlider("dt", 0.0, 2.0, 1.0, 10, 90, 100, 14)
+  cp5.addSlider("dt", 0.0, 2.0, 1.0, 10, 90, 200, 14)
   .setColorValue(color(255)).setColorActive(color(155)).setColorForeground(color(155)).setColorLabel(color(50)).setColorBackground(color(50));
-  cp5.addSlider("iterations", 1, 10, 5, 10, 110, 100, 14)
+  cp5.addSlider("iterations", 1, 10, 5, 10, 110, 200, 14)
   .setColorValue(color(255)).setColorActive(color(155)).setColorForeground(color(155)).setColorLabel(color(50)).setColorBackground(color(50));
   
   cpa = cp5.addColorPicker("pickera")
