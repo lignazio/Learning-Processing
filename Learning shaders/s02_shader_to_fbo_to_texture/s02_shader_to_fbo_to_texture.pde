@@ -50,7 +50,7 @@ PShape createPlane(){
     mesh.noStroke();
     mesh.texture(fbo);
      
-    mesh.vertex(-100,-100,0,0,0); //add vertices (R,G,B,U,V);
+    mesh.vertex(-100,-100,0,0,0); //add vertices (X,Y,Z,U,V);
     mesh.vertex(100,-100,0,1,0);
     mesh.vertex(100,100,0,1,1);
     mesh.vertex(-100,100,0,0,1);

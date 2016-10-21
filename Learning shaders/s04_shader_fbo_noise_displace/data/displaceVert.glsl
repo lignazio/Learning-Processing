@@ -24,5 +24,4 @@ void main() {
   gl_Position = transform * newVertexPos;
     
   vertColor = color;
-  vertTexCoord = vertTexCoord;
 }
